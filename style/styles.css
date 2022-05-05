@@ -109,6 +109,7 @@ ul {
 }
 .nav-list-item-text:focus {
   color: #2196f3;
+  outline: none;
 }
 .nav-mail {
   font-weight: 500;
@@ -128,6 +129,7 @@ ul {
 }
 .nav-mail:focus {
   color: #2196f3;
+  outline: none;
 }
 .nav-phone {
   font-weight: 500;
@@ -146,6 +148,7 @@ ul {
 }
 .nav-phone:focus {
   color: #2196f3;
+  outline: none;
 }
 
 .icon-envelope {
@@ -252,8 +255,9 @@ ul {
   height: 120px;
   padding: 25px 100px;
   border-radius: 4px;
-  background: #eeeded;
+  background-color: #f5f4fa;
 }
+
 .features-list-header {
   font-weight: 700;
   font-size: 14px;
@@ -319,7 +323,7 @@ ul {
 .section-team {
   padding-top: var(--padding-often);
   padding-bottom: var(--padding-often);
-  background-color: #eeeded;
+  background-color: #f5f4fa;
 }
 .team-header {
   font-weight: 700;
@@ -402,6 +406,9 @@ ul {
 }
 .team-soc-icon:focus {
   background-color: #757575;
+  outline: none;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .team-soc-link:hover {
   background-color: #2196f3;
@@ -412,9 +419,15 @@ ul {
 .team-soc-link:focus .team-soc-icon {
   background-color: #2196f3;
   fill: #ffffff;
+  outline: none;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .team-soc-link:focus {
   background-color: #2196f3;
+  outline: none;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 /*------------------------------------FOOTER----------------------------------- */
 .logo-white {
@@ -502,6 +515,9 @@ ul {
 }
 .footer-soc-link:focus {
   background-color: #2196f3;
+  outline: none;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-soc-link:hover {
   background-color: #2196f3;
@@ -530,7 +546,7 @@ ul {
   border: #ffffff;
   border-radius: 4px;
   padding: 6px 22px;
-  transition-property: border, fill, background-color, box-shadow;
+  transition-property: border, fill, box-shadow;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -547,6 +563,7 @@ ul {
 .portfolio-rubrication-button:focus {
   background: #2196f3;
   color: #ffffff;
+  outline: none;
 }
 
 .portfolio-rubrication-list {
@@ -672,8 +689,10 @@ ul {
   fill: #2196f3;
 }
 .clients-link:focus {
-  background-color: #2196f3;
-  fill: rgb(255, 255, 255);
+  background-color: #ffffff;
+  fill: #2196f3;
+  outline: none;
+  border: 1px solid #2196f3;
 }
 .backdrop {
   width: 100%;
