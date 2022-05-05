@@ -461,10 +461,16 @@
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button type="button" class="modal-button" data-modal-close><svg class="icon-modal" width="11" , height="11">
-                        <use
-                          href="./images/symbol-defs.svg#icon-x"
-                        ></use>
+         <use href="./images/symbol-defs.svg#icon-x" ></use>
                       </svg></button>
+                      <p class="modal-title">Оставьте свои данные, мы вам перезвоним</p>
+                      <form>
+                        <input type="text" name="user-name" class="modal-input" placeholder="">
+                        <input type="text" name="user-mail" class="modal-input" placeholder="">
+                        <input type="text" name="user-phone" class="modal-input" placeholder="">
+                        <input type="text" name="user-comments" class="modal-input" placeholder="">
+                        <button type="submit" class="submit-button" >Отправить</button>
+                      </form>
       </div>
     </div>
     <script src="./js/modal.js"></script>
